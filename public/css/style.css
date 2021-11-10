@@ -156,7 +156,15 @@ textarea {
 
 .sectionTag{
     padding: 16px 0;
-}
+} 
+
+.sectionTag a{
+    font-size: 30px;
+    text-decoration: none;
+    text-decoration: solid;
+    color: darkgoldenrod;
+    font-family: ui-monospace; 
+} 
 
 .sectionSubTag{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
