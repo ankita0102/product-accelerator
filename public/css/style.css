@@ -57,7 +57,7 @@ html{
 }
 
 .nav-list li a:hover{ 
-    color: rgb(197, 194, 194);
+    color: rgb(197, 197, 197);
 }
 
 .rightNav{ 
@@ -164,7 +164,10 @@ textarea {
     text-decoration: solid;
     color: darkgoldenrod;
     font-family: ui-monospace; 
-} 
+}  
+
+.sectionTag a:hover {
+    color: rgb(197, 197, 197);
 
 .sectionSubTag{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -211,7 +214,19 @@ textarea {
    justify-content: center;
    color: white;
    
-}
+} 
+    
+    .footer-link {
+        text-align: center;
+        padding: 30px 0;
+       font-family: 'Ubuntu', sans-serif; 
+       display: flex;
+       justify-content: center;
+       color: white; 
+    } 
+    
+    .footer-link:hover {
+        color: rgb(197, 197, 197); 
 
 .burger{
     display: none;
