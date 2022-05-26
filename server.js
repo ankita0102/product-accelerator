@@ -20,12 +20,12 @@ app.post('/', (req, res)=>{
         service: 'gmail',
         auth: {
             user: 'angelicamalik999@gmail.com', 
-            pass: '1234*geton'
+            pass: 'geton*1234'
         } 
     }) 
 
     const mailOptions = {
-        from: 'angelicamalik999@google.com', 
+        from: 'angelicamalik999@gmail.com',  
         to: req.body.email, 
         subject: `Message from ${req.body.name}: ${req.body.subject}`,
         text: req.body.password
