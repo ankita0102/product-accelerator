@@ -20,7 +20,7 @@ app.post('/', (req, res)=>{
         service: 'gmail',
         auth: {
             user: 'angelicamalik999@gmail.com', 
-            pass: 'geton*1234'
+            pass: 'imie bllo puoa kpmm'
         } 
     }) 
 
