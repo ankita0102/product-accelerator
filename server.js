@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 
 
 //middleware
-app.use(express.static('public')); 
+//app.use(express.static('')); 
 app.use(express.json())
 
 app.get('/', (req, res)=>{
